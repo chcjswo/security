@@ -19,6 +19,7 @@ import me.mocadev.authserver.repository.user.UserJpaRepository;
 @Repository
 @RequiredArgsConstructor
 public class AuthRepository {
+
 	private final OtpJpaRepository otpJpaRepository;
 	private final UserJpaRepository userJpaRepository;
 
